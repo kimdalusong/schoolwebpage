@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+			<title>CRT</title>
+			<link rel="shortcut icon" href="images/logo.png">
+			<link rel="stylesheet" type="text/css" href="mystyle.css">
+			<script src="Library.js"> </script>
+<script> 
+
+		$(document).ready(function(){
+		$("#hymn-btn").click(function(){
+		$(".modal").animate({width:"100%"}, 'slow');
+		$(".modal").animate({height:"100%"},'slow');
+		$(".modal").animate({marginTop:"-50px"},'fast');
+			});
+		$(".close").click(function(){	
+		$(".modal").animate({marginLeft:"1%"}, 'slow');
+		$(".modal").animate({width:"0%"}, 'slow');
+		$(".modal").animate({height:"0%"}, 'slow');
+	
+		
+		
+			});
+			
+		});
+		
+</script>
+
+
+
+
+</head>
+
+<body>
+
+<div class="wrapper">  <!--this STARTS the content of the page--> 
+
+<div class="header">
+	<img src="pics/logo.png" height="169px" width="192px">
+	<img class="crtname" src="pics/crtname.png" height="60px" width="650px">
+	<a href="home.html"><img class="home1" src="pics/home.png" height="30x" width="110px"> </a>
+	<a href="admission.html"><img class="home2" src="pics/admission.png" height="30px" width="155px"> </a>
+	<a href="courses.html"><img class="home3" src="pics/courses.png" height="30px" width="225px"> </a>
+	<a href="#"><img class="home4" src="pics/kto12.png" height="30px" width="115px"> </a>
+	<a href="contacts.html"><img class="home5" src="pics/contacts.png" height="30px" width="155px"> </a>
+	<img class="home" src="pics/blank.png" height="30px" width="200px">
+</div>
+
+
+
+
+
+
+<div class="banner">
+	<img src="pics/bg-banner.png" height="430px" width="1145px">
+				<style>
+				.mySlides {display:none;}
+				</style>
+			<div class="banner-content">
+
+			  <img class="mySlides" src="pics/party.jpg"  height="340" width="1050">
+			  <img class="mySlides" src="pics/enroll.jpg" height="340" width="1050">
+
+			 
+
+				<script>
+				var slideIndex = 0;
+				carousel();
+
+				function carousel() {
+				  var i;
+				  var x = document.getElementsByClassName("mySlides");
+				  for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";
+				  }
+				  slideIndex++;
+				  if (slideIndex > x.length) {slideIndex = 1}
+				  x[slideIndex-1].style.display = "block";
+				  setTimeout(carousel, 3000); // Change image every 2 seconds
+				}
+				</script>
+			</div>
+</div>
+
+<div class="botnav">
+	<a href="#"><img class="home" src="pics/blank2.png" height="30px" width="190px"> </a>
+	<a href="president.html"><img class="home6" src="pics/president.png" height="30px" width="285px"> </a>
+	<a href="history.html"><img class="home7" src="pics/history.png" height="30px" width="155px"> </a>
+	<a href="mission.html"><img class="home8" src="pics/mission.png" height="30px" width="235px"> </a>
+	<a href="#" id="hymn-btn"><img class="home9" src="pics/hymn.png" height="30px" width="155px"> </a>
+	<img class="home" src="pics/blank3.png" height="30px" width="130px">
+</div>
+
+<div id="myModal" class="modal">
+  <!-- CRT HYMN CONTENT -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    
+	<div id="videocontainer">
+    
+			  <div class="video">
+			   <video width="640" height="360" controls loop >
+				<source src="video/CRT HYMN 2016.mp4" type="video/mp4">
+			   </video>
+			  </div>
+			  
+			  <br/>
+			  <div class="fontstyle">
+			  <center><h2>THE CRT HYMN </h2></center>
+			  
+			<div class="lyrics">
+			 <div class="lyricsbody"><br/>
+				 <p style="text-align: justify; font-size: 18px;"><B>GROW WITH CRT </b></p>
+				 <BR/>
+				 <i>
+				  <p style="text-align: justify;">We look up at our </p>
+				  <p style="text-align: justify;">Together hand in hand  </p>
+				  <p style="text-align: justify;">Learning to love, helping and sharing  </p>
+				  <p style="text-align: justify;">Working for a brighter day  </p>
+				  <p style="text-align: justify;">&nbsp </p>
+				  <p style="text-align: justify;">We dream for tomorrow  </p>
+				  <p style="text-align: justify;">For better days ahead  </p>
+				  <p style="text-align: justify;">Living a life, full of God's blessings  </p>
+				  <p style="text-align: justify;">Helping people find their way  </p>
+				  <p style="text-align: justify;">Grow now, aim high  </p>
+				  <p style="text-align: justify;">CRT will lead a better way  </p>
+				  <p style="text-align: justify;">Go now, work hard  </p>
+				  <p style="text-align: justify;">CRT you'll stay dear in out hearts.  </p>
+				  </i>
+			 </div>
+			 </div>
+			</div>
+	</div>
+<br/><br/><br/>
+<br/><br/><br/>
+	
+  </div>
+</div>
+
+<script>
+				// Get the modal
+				var modal = document.getElementById("myModal");
+
+				// Get the button that opens the modal
+				var btn = document.getElementById("hymn-btn");
+
+				// Get the <span> element that closes the modal
+				var span = document.getElementsByClassName("close")[0];
+
+				// When the user clicks the button, open the modal 
+				btn.onclick = function() {
+				  modal.style.display = "block";
+				}
+
+			
+				// When the user clicks anywhere outside of the modal, close it
+				window.onclick = function(event) {
+				  if (event.target == modal) {
+					modal.style.width = "0%";
+					modal.style.height = "0%";
+				  }
+				}
+</script>
+
+
+<div class="bgbody">
+	<img src="pics/bg-body.png" height="800px" width="1145px">
+	<div class="bodycontent"> 
+
+
+
+	</div>
+</div>
+
+
+	<div class="login-form">
+		
+		<div class="form-img">
+			<img src="pics/faculty.png" height="100px" width="250px">
+		</div>
+		<div class="faculty">
+			<form action="action_page.php">
+				  <div class="imgcontainer">
+					<img src="pics/avatar2.png" alt="Avatar" class="avatar">
+				  </div>
+
+				  <div class="container">
+					<label for="uname"><b>USERNAME</b></label>
+					<input type="text" placeholder="Enter Username" name="uname" required>
+
+					<label for="psw"><b>PASSWORD</b></label>
+					<input type="password" placeholder="Enter Password" name="psw" required>
+
+					<button type="submit">Login</button>
+				  </div>  
+			</form>
+	</div>
+		
+		
+	</div>
+	
+	
+<div class="newsboard">
+
+	
+	<img src="pics/newsboard.png" height="30px" width="830px">
+	<div class="newsheader">NEWS BOARD</div>
+		<div class="news-content">
+								<div class="news1">
+									<div class="insertimage">	<img src="pics/news1.png" height="80px" width="120px"> </div> 
+								<figcaption class="newscontent">Ang Student Financial Assistance Programs o STuFAPs, ay programa ng Commission on Higher Education 
+								(PhCHED) na nagbibigay ng tulong pinansiyal sa mahihirap ngunit karapat-dapat na
+								mga estudyanteng gustong maipagpatuloy ang kanilang pag-aaral sa kolehiyo </figcaption>
+								</div>
+	
+								<div class="news2">
+									<div class="insertimage">	<img src="pics/news2.jpg" height="80px" width="120px"> </div> 
+								<figcaption class="newscontent">OOK: Students of College of Research and Technology (CRT) and employees of 
+								SM Megacenter, Cabanatuan City, Nueva Ecija, presented the giant garlic longganisa pasta during the annual 
+								celebration of Banatu Festival last Saturday. (📷: Sheen Eugenio) | via Zaldy Comanda </figcaption>
+								</div>
+								
+								<div class="news3">
+									<div class="insertimage">	<img src="pics/crtgapan.jpg" height="80px" width="120px"> </div> 
+								<figcaption class="newscontent">CRT opened its extension campus at Our Lady of Sacred Heart Academy (OLSHA) in Guimba, Nueva Ecija. 
+											College for Research & Technology was one of the framers of Competency Based Training under the Philippine
+											 – Australia Quality Technical 
+											and Vocational Education and Training (PAQTVET) </figcaption>
+								</div>
+								
+								<div class="news4">
+									<div class="insertimage">	<img src="pics/pic1.jpg" height="80px" width="120px"> </div> 
+								<figcaption class="newscontent">Ang Student Financial Assistance Programs o STuFAPs, ay programa ng Commission on Higher Education 
+								(PhCHED) na nagbibigay ng tulong pinansiyal sa mahihirap ngunit karapat-dapat na
+								mga estudyanteng gustong maipagpatuloy ang kanilang pag-aaral sa kolehiyo </figcaption>
+								</div>
+		
+		</div>
+		
+	<div class="linksheader">QUICK LINKS</div>
+		<div class="links-content">
+		
+		</div>
+	
+	
+</div>
+
+
+
+
+<div class="footer">
+	<img src="pics/footer.png" height="200px" width="1145px">
+	   <div class="line"><marquee><i><b>
+		<a style="color: red;">HOME OF THE WORLD CLASS FILIPINO YOUTH! &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a style="color: blue;">HOME OF THE WORLD CLASS FILIPINO YOUTH! &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a style="color: green;">HOME OF THE WORLD CLASS FILIPINO YOUTH! &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a style="color: #b1ab00;">HOME OF THE WORLD CLASS FILIPINO YOUTH! &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a style="color: red;">HOME OF THE WORLD CLASS FILIPINO YOUTH! &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a style="color: blue;">HOME OF THE WORLD CLASS FILIPINO YOUTH! &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a style="color: green;">HOME OF THE WORLD CLASS FILIPINO YOUTH! &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a style="color: #b1ab00;">HOME OF THE WORLD CLASS FILIPINO YOUTH! &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a style="color: red;">HOME OF THE WORLD CLASS FILIPINO YOUTH! &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a style="color: blue;">HOME OF THE WORLD CLASS FILIPINO YOUTH! &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a style="color: green;">HOME OF THE WORLD CLASS FILIPINO YOUTH! &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a style="color: #b1ab00;">HOME OF THE WORLD CLASS FILIPINO YOUTH! &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		</i></b>
+	   </marquee>
+	   </div>
+	   
+	   	<div class="crtfooter">
+				<br/>
+			<div class="school" > 
+             	<b><p>COLLEGE FOR RESEARCH AND TECHNOLOGY - BURGOS AVENUE, CABANATUAN CITY 3100 </p></b>
+			</div>
+			<div class="contact">
+				<p> Tel: (044)463 2697 &nbsp(044)463 2735 &nbsp&nbsp&nbsp | &nbsp&nbsp&nbsp  Email: registar@crtcab.net</p>	
+				<br />
+				<div class="copyright">
+					  <p>&copy; 2019 COLLEGE FOR RESEARCH & TECHNOLOGY </p><br/>
+				</div>
+			</div>
+		</div> 
+		
+</div>
+
+
+
+ 
+ </div>  <!--this END the content of the page--> 
+</body>
+</html>
+

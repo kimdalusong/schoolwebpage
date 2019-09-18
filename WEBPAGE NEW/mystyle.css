@@ -1,0 +1,614 @@
+body {
+			background-image: url("pics/background.jpg");
+            background-repeat: no-repeat;
+			background-size: 1400px 2200px;
+		    margin: 0;
+}
+
+.wrapper {
+	margin: 80px;
+}
+.banner {
+	margin-top: -4px;
+}
+
+.banner-content {
+	margin-left: 60px;
+	margin-top: -432px;
+	position: relative;
+}
+
+.crtname {
+	position: absolute;
+	padding-top: 35px;
+	padding-left: 5px;
+	
+	
+	
+	}
+.home {
+	margin-left:-5px;
+	position: relative;
+}
+
+.home1 {								
+	margin-left:-5px;
+	position: relative;
+	
+}
+.home2 {
+	margin-left:-5px;
+	position: relative;
+}
+.home3 {
+	margin-left:-5px;
+	position: relative;
+}
+.home4 {
+	margin-left:-5px;
+	position: relative;
+}
+.home5 {
+	margin-left:-5px;
+	position: relative;
+}
+.home6 {
+	margin-left:-5px;
+	position: relative;
+}
+.home7 {
+	margin-left:-5px;
+	position: relative;
+}
+.home8 {
+	margin-left:-5px;
+	position: relative;
+}
+.home9 {
+	margin-left:-5px;
+	position: relative;
+}
+
+a {
+	text-decoration: none;
+}
+.home1:hover {
+	content: url("pics/home-hover.png");
+	display: inline;
+}
+.home2:hover {
+	content: url("pics/admission-hover.png");
+	display: inline;
+}
+.home3:hover {
+	content: url("pics/courses-hover.png");
+	display: inline;
+}
+.home4:hover {
+	content: url("pics/kto12-hover.png");
+	display: inline;
+}
+.home5:hover {
+	content: url("pics/contacts-hover.png");
+	display: inline;
+}
+.home6:hover {
+	content: url("pics/president-hover.png");
+	display: inline;
+}
+.home7:hover {
+	content: url("pics/history-hover.png");
+	display: inline;
+}
+.home8:hover {
+	content: url("pics/mission-hover.png");
+	display: inline;
+}
+.home9:hover {
+	content: url("pics/hymn-hover.png");
+	display: inline;
+}
+
+.botnav {
+	margin-top: -5px;
+	margin-left: 5px;
+	position: relative;
+}
+
+
+
+.footer {
+margin-top: -5px;
+}
+.bgbody {
+	margin-top: -10px;
+
+} 
+
+
+
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: absolute; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 10%; /* Full width */
+  height: 20%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  Overflow-y: auto;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.bodycontent {
+
+	float: left;
+	position: absolute;
+	margin-top: -800px;
+	margin-left: 50PX;
+}
+.bodycontent1 {
+	background-color: white;
+	float: left;
+	position: relative;
+	margin-top: -1170px;
+	margin-left: 50PX;
+	width: 1050px;
+	border-style:   solid;
+    border-width:   5px;
+    border-color:   #F7F7F7;
+    -webkit-border-radius:   3px;
+    -moz-border-radius:   3px;
+    border-radius:   5px;
+}
+.bodycontent2 {
+	background-color: white;
+	float: left;
+	position: relative;
+	margin-top: -920px;
+	margin-left: 50PX;
+	width: 1050px;
+	border-style:   solid;
+    border-width:   5px;
+    border-color:   #F7F7F7;
+    -webkit-border-radius:   3px;
+    -moz-border-radius:   3px;
+    border-radius:   5px;
+}
+.bodycontent3 {
+	background-color: white;
+	float: left;
+	position: relative;
+	margin-top: -1200px;
+	margin-left: 50PX;
+	width: 1050px;
+	border-style:   solid;
+    border-width:   5px;
+    border-color:   #F7F7F7;
+    -webkit-border-radius:   3px;
+    -moz-border-radius:   3px;
+    border-radius:   5px;
+}
+.bodycontent4 {
+	background-color: white;
+	float: left;
+	position: relative;
+	margin-top: -1200px;
+	margin-left: 50PX;
+	width: 1050px;
+	border-style:   solid;
+    border-width:   5px;
+    border-color:   #F7F7F7;
+    -webkit-border-radius:   3px;
+    -moz-border-radius:   3px;
+    border-radius:   5px;
+}
+
+
+.line {
+ margin-top: -45px;
+ margin-right: 50px;
+  background-color: #ddd;
+  max-width: auto;
+  text-align: center;
+  font-size: 15px;
+  font-family: Segoe Script;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.newsboard {
+	position: absolute;
+	margin-top: -781px;
+	margin-left: 305px;
+	height: 30px;
+	width: 830px;
+}
+
+.newsheader {
+	position: absolute;
+	margin-top: -27px;
+	margin-left: 240px;
+	color: white;
+	font-family: arial;
+}
+
+.linksheader {
+	position: absolute;
+	margin-top: -27px;
+	margin-left: 660px;
+	color: white;
+	font-family: arial;
+}
+
+.news-content {
+	position: absolute;
+	height: 490px;
+	width: 580px;
+	overflow-y: scroll;
+	background-color: white;
+	margin-left: 8px;
+	
+	border-style:   solid;
+    border-width:   5px;
+    border-color:   #F7F7F7;
+    -webkit-border-radius:   3px;
+    -moz-border-radius:   3px;
+    border-radius:   5px;
+}
+.links-content {
+	position: absolute;
+	height: 490px;
+	width: 206px;
+	background-color: white;
+	margin-left: 608px;
+	border-style:   solid;
+    border-width:   5px;
+    border-color:   #F7F7F7;
+    -webkit-border-radius:   3px;
+    -moz-border-radius:   3px;
+    border-radius:   5px;
+}
+
+.login-form {
+	position: absolute;
+	height: 430px;
+	width: 270px;
+	margin-top: -690px;
+	margin-left: 20px;
+	background-color: white;
+		border-style:   solid;
+    border-width:   5px;
+    border-color:   #F7F7F7;
+    -webkit-border-radius:   3px;
+    -moz-border-radius:   3px;
+    border-radius:   5px;
+}
+.form-img {
+	margin-left: 10px;
+	margin-top: -110px;
+}
+
+.faculty {
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left:  auto;
+	background-color: white;
+	max-width: 253px;
+	float: left;
+	padding: 10px;
+	height: 400px;
+	
+
+	font-family: arial;
+}
+
+/* Bordered form */
+form {
+  border: 3px solid blue;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: blue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 12px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 10%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+ .crtfooter  {
+     margin-top: -170px;
+     clear: both;
+     
+   
+  }
+  
+    .school {
+    text-align: center;
+    font-size: 15px;
+    color: #000079;
+    font-family: verdana;
+  }
+      .contact {
+    text-align: center;
+    font-size: 12px;
+    color: black;
+    font-family: verdana;
+  }
+ .copyright {
+    text-align: center;
+    font-size: 8.5px;
+    color: black;
+    font-family: verdana;
+ }
+ .news1 {
+	margin: auto;
+	 width: 563px;
+	 height: 120px;
+	 background-color: #fffff1;
+	 position: absolute;
+ }
+ 
+ 
+.insertimage {
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.newscontent {
+	position: absolute;
+	margin-left: 140px;
+	margin-top: -90px;
+	display: block;
+}
+ 
+ 
+  .news2 {
+	margin-top: 110px;
+	 width: 563px;
+	 height: 120px;
+	 background-color: #ffffff;
+	 position: absolute;
+ }  
+ .news3 {
+	margin-top: 220px;
+	 width: 563px;
+	 height: 240px;
+	 background-color: #fffff1;
+	 position: absolute;
+ }
+  .news4 {
+	margin-top: 330px;
+	 width: 563px;
+	 height: 240px;
+	 background-color: #ffffff;
+	 position: absolute;
+ }
+ 
+ 
+
+.lyrics {
+    
+      padding-left:  740px;
+      padding-right: 25px;
+}
+
+}
+
+
+/**main**/
+.videocontainer {
+position: related;
+height: 200px;
+width: 200px;
+ 
+  
+   
+}
+
+.video{
+	left: 37%;
+    position: absolute;
+    top: 60%;
+    transform: translate(-50%, -50%);
+   
+}
+
+
+ 
+.admitdiv {
+font-family: arial;
+padding-left:  40px;
+padding-right: 400px; 
+}
+
+.admitdiv1 {
+font-family: arial;
+padding-left:  40px;
+padding-right: 400px; 
+}
+
+.contentdiv{
+   font-size: 15;
+}
+
+.admitpic {
+margin-left: 750px;
+margin-top: -1100px;
+position: absolute;
+z-index: 1;
+}
+
+.admitpic2 {
+margin-left: 750px;
+margin-top: -900px;
+position: absolute;
+z-index: 1;
+}
+.admitpic3 {
+margin-left: 760px;
+margin-top: -850px;
+position: absolute;
+z-index: 1;
+}
+.bodytxt{
+	font-family: arial;
+	margin: 0px;
+	position: relative;
+}
+.fontstyle {
+	font-family: arial;
+}
+h2{
+	background-color: yellow;
+}
+.requirements {
+    align-self: left;
+padding-left:  70px;
+padding-right: 550px; 
+font-family: arial;
+}
+.txtcontainer {
+ padding-right: 50px;
+ padding-left: 40px;
+ 
+}
+
+.article {
+	font-family: arial;
+}
+
+.cabanatuan {
+	position: absolute;
+	margin-top: 300px;
+}
+.gapan {
+	position: absolute;
+	margin-left: 350px;
+	margin-top: 300px;
+}
+.sanjose {
+	position: absolute;
+	margin-top: 600px;
+}
+.delpilar {
+	position: absolute;
+	margin-left: 350px;
+	margin-top: 600px;
+}
+.guimba {
+	position: absolute;
+	margin-top: 900px;
+	margin-left: 180px;
+}
+.years {
+	position: relative;
+	margin-top: -30px;
+
+}
+
+.logo-container {
+	position: absolute;
+	margin-left: 800px;
+	margin-top: 20px;
+}
+.missiontxt {
+		position: absolute;
+		margin-top: 40px;
+		margin-left: -120px;
+}
+
+.admit {
+    font-size: 15px;
+    text-align: left;
+    font-family: arial;
+	position: relative;
+	margin-top: 270px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.admit2 {
+    font-size: 15px;
+    text-align: left;
+    font-family: arial;
+	position: relative;
+	margin-top: 255px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.vissiontxt {
+		position: absolute;
+		margin-top: 10px;
+		margin-left: -120px;
+}
+
+

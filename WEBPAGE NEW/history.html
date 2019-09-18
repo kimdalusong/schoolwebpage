@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+			<title>CRT</title>
+			<link rel="shortcut icon" href="images/logo.png">
+			<link rel="stylesheet" type="text/css" href="mystyle.css">
+
+</head>
+
+<body>
+
+<div class="wrapper">  <!--this STARTS the content of the page--> 
+
+<div class="header">
+	<img src="pics/logo.png" height="169px" width="192px">
+	<img class="crtname" src="pics/crtname.png" height="60px" width="650px">
+	<a href="home.html"><img class="home1" src="pics/home.png" height="30x" width="110px"> </a>
+	<a href="admission.html"><img class="home2" src="pics/admission.png" height="30px" width="155px"> </a>
+	<a href="courses.html"><img class="home3" src="pics/courses.png" height="30px" width="225px"> </a>
+	<a href="#"><img class="home4" src="pics/kto12.png" height="30px" width="115px"> </a>
+	<a href="contacts.html"><img class="home5" src="pics/contacts.png" height="30px" width="155px"> </a>
+	<img class="home" src="pics/blank.png" height="30px" width="200px">
+</div>
+
+<div class="banner">
+	<img src="pics/bg-banner.png" height="430px" width="1145px">
+				<style>
+				.mySlides {display:none;}
+				</style>
+			<div class="banner-content">
+
+			  <img class="mySlides" src="pics/founding.jpg"  height="340" width="1050">
+			  <img class="mySlides" src="pics/enroll.jpg" height="340" width="1050">
+
+			 
+
+				<script>
+				var slideIndex = 0;
+				carousel();
+
+				function carousel() {
+				  var i;
+				  var x = document.getElementsByClassName("mySlides");
+				  for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";
+				  }
+				  slideIndex++;
+				  if (slideIndex > x.length) {slideIndex = 1}
+				  x[slideIndex-1].style.display = "block";
+				  setTimeout(carousel, 3000); // Change image every 2 seconds
+				}
+				</script>
+			</div>
+</div>
+
+<div class="botnav">
+	<a href="#"><img class="home" src="pics/blank2.png" height="30px" width="190px"> </a>
+	<a href="president.html"><img class="home6" src="pics/president.png" height="30px" width="285px"> </a>
+	<a href="history.html"><img class="home7" src="pics/history.png" height="30px" width="155px"> </a>
+	<a href="mission.html"><img class="home8" src="pics/mission.png" height="30px" width="235px"> </a>
+	<a href="#" id="hymn-btn"><img class="home9" src="pics/hymn.png" height="30px" width="155px"> </a>
+	<img class="home" src="pics/blank3.png" height="30px" width="130px">
+</div>
+
+<div id="myModal" class="modal">
+  <!-- CRT HYMN CONTENT -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    
+	<div id="videocontainer">
+    
+			  <div class="video">
+			   <video width="640" height="360" controls loop >
+				<source src="video/CRT HYMN 2016.mp4" type="video/mp4">
+			   </video>
+			  </div>
+			  
+			  <br/>
+			  <div class="fontstyle">
+			  <center><h2>THE CRT HYMN </h2></center>
+			  
+			<div class="lyrics">
+			 <div class="lyricsbody"><br/>
+				 <p style="text-align: justify; font-size: 18px;"><B>GROW WITH CRT </b></p>
+				 <BR/>
+				 <i>
+				  <p style="text-align: justify;">We look up at our </p>
+				  <p style="text-align: justify;">Together hand in hand  </p>
+				  <p style="text-align: justify;">Learning to love, helping and sharing  </p>
+				  <p style="text-align: justify;">Working for a brighter day  </p>
+				  <p style="text-align: justify;">&nbsp </p>
+				  <p style="text-align: justify;">We dream for tomorrow  </p>
+				  <p style="text-align: justify;">For better days ahead  </p>
+				  <p style="text-align: justify;">Living a life, full of God's blessings  </p>
+				  <p style="text-align: justify;">Helping people find their way  </p>
+				  <p style="text-align: justify;">Grow now, aim high  </p>
+				  <p style="text-align: justify;">CRT will lead a better way  </p>
+				  <p style="text-align: justify;">Go now, work hard  </p>
+				  <p style="text-align: justify;">CRT you'll stay dear in out hearts.  </p>
+				  </i>
+			 </div>
+			 </div>
+			</div>
+	</div>
+<br/><br/><br/>
+<br/><br/><br/>
+<br/><br/><br/>
+<br/><br/><br/>
+	
+  </div>
+</div>
+
+<script>
+				// Get the modal
+				var modal = document.getElementById("myModal");
+
+				// Get the button that opens the modal
+				var btn = document.getElementById("hymn-btn");
+
+				// Get the <span> element that closes the modal
+				var span = document.getElementsByClassName("close")[0];
+
+				// When the user clicks the button, open the modal 
+				btn.onclick = function() {
+				  modal.style.display = "block";
+				}
+
+				// When the user clicks on <span> (x), close the modal
+				span.onclick = function() {
+				  modal.style.display = "none";
+				}
+
+				// When the user clicks anywhere outside of the modal, close it
+				window.onclick = function(event) {
+				  if (event.target == modal) {
+					modal.style.display = "none";
+				  }
+				}
+</script>
+
+<div class="bgbody">
+	<img src="pics/bg-body.png" height="1250px" width="1145px">
+	<div class="admitpic">
+        <img src="pics/btte.jpg" height="670px" width="320px" align="right">
+      </div> 
+	
+	
+	<div class="bodycontent3"> 
+	
+		<div class="txtcontainer">
+		
+		 <div class="admitdiv">
+   <br/>
+   
+	<center><h2>CRT HISTORY </H2> </center>
+     <div class="contentdiv" >
+      <p style="text-align: justify; font-size="20px;><b>CRT Overview</b></p>
+     
+      <p style="text-align: justify;">1998</p>
+      <p style="text-align: justify;">CRT Gapan was transferred to its new site in Sto. Nino, Gapan City.</p>
+      <p style="text-align: justify;">1999</p>
+      <p style="text-align: justify;">Bestowed Government Permit from CHED to operate BS in Information Technology,
+      one of the first Colleges in Nueva Ecija to offer such course.</p>
+      <p style="text-align: justify;">2000</p>
+      <p style="text-align: justify;">CRT opened its extension campus at Our Lady of Sacred Heart Academy
+      (OLSHA) in Guimba, Nueva Ecija. College for Research & Technology was one of the framers of Competency
+      Based Training under the Philippine – Australia Quality Technical and Vocational Education and Training (PAQTVET)</p>
+      <p style="text-align: justify;">2001</p>
+      <p style="text-align: justify;">Awarded accreditation from TESDA – RO3 to be an Accredited Assessment
+      Center for Data Encoder. </p>
+      <p style="text-align: justify;">
+       Received Government Recognition from TESDA to operate programs: Three – Year Computer Engineering and Hardware Technology
+       (NTR – 03204); Two – Year Electronics and Computer Technician (NTR – 03205); Two – Year Computer Secretarial
+       (NTR – 03202); and Two – Year Computer Science in Information Technology (Computer Programming WTR 03140) </p>
+      <p style="text-align: justify;">estowed Government Recognition from CHED of BS in Information Technology (HER 035) </p>
+      <p style="text-align: justify;">2002</p>
+      <p style="text-align: justify;">Awarded Government Permit from CHED to operate BS Business Administration
+      (Major in Entrepreneurial Management HET 037, s. 2002) 
+       Engr. Reynato C. Arimbuyutan (College President) became the founding president of Nueva Ecija Association
+       of Technical – Vocational Institutions (NEATVI) </p>
+      <p style="text-align: justify;">2003</p>
+      <p style="text-align: justify;">Construction of the new CRT – Guimba branch began. The location is along
+      Parairo St., Saranay Dist., Guimba, Nueva Ecija.</p>
+      <p style="text-align: justify;">2004</p>
+      <p style="text-align: justify;">Transfer of CRT – Guimba to its new location in Parairo St.,
+      Saranay Dist., Guimba, Nueva Ecija Engr. </p>
+      <p style="text-align: justify;">Reynato C. Arimbuyutan became the founding Vice President of the
+      Philippine Society of Information Technology Educators (PSITE) – Region 3. </p>
+      <p style="text-align: justify;">Bestowed Government Recognition from TESDA to CRT Cabanatuan to
+      operate Two – Year Associate in Hotel & Restaurant Management NC Level II (WTR 0403042012) </p>
+      <br/><br/>
+       
+     </div>
+     
+  </div>
+  
+		  
+		</div>
+	</div>
+</div>
+
+
+<div class="footer">
+	<img src="pics/footer.png" height="200px" width="1145px">
+	   <div class="line"><marquee><i><b>
+		<a style="color: red;">HOME OF THE WORLD CLASS FILIPINO YOUTH! &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a style="color: blue;">HOME OF THE WORLD CLASS FILIPINO YOUTH! &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a style="color: green;">HOME OF THE WORLD CLASS FILIPINO YOUTH! &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a style="color: #b1ab00;">HOME OF THE WORLD CLASS FILIPINO YOUTH! &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a style="color: red;">HOME OF THE WORLD CLASS FILIPINO YOUTH! &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a style="color: blue;">HOME OF THE WORLD CLASS FILIPINO YOUTH! &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a style="color: green;">HOME OF THE WORLD CLASS FILIPINO YOUTH! &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a style="color: #b1ab00;">HOME OF THE WORLD CLASS FILIPINO YOUTH! &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a style="color: red;">HOME OF THE WORLD CLASS FILIPINO YOUTH! &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a style="color: blue;">HOME OF THE WORLD CLASS FILIPINO YOUTH! &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a style="color: green;">HOME OF THE WORLD CLASS FILIPINO YOUTH! &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a style="color: #b1ab00;">HOME OF THE WORLD CLASS FILIPINO YOUTH! &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		</i></b>
+	   </marquee>
+	   </div>
+	   
+	   	<div class="crtfooter">
+				<br/>
+			<div class="school" > 
+             	<b><p>COLLEGE FOR RESEARCH AND TECHNOLOGY - BURGOS AVENUE, CABANATUAN CITY 3100 </p></b>
+			</div>
+			<div class="contact">
+				<p> Tel: (044)463 2697 &nbsp(044)463 2735 &nbsp&nbsp&nbsp | &nbsp&nbsp&nbsp  Email: registar@crtcab.net</p>	
+				<br />
+				<div class="copyright">
+					  <p>&copy; 2019 COLLEGE FOR RESEARCH & TECHNOLOGY </p><br/>
+				</div>
+			</div>
+		</div> 
+		
+</div>
+
+
+
+ 
+ </div>  <!--this END the content of the page--> 
+</body>
+</html>
+
